@@ -65,7 +65,7 @@ public class QuizCardBuilder
 		fileMenu.add(saveMenuItem);
 		menuBar.add(fileMenu);
 		frame.setJMenuBar(menuBar);
-		farme.getContentPane().add(BorderLayout.CENTER, mainPanel);
+		frame.getContentPane().add(BorderLayout.CENTER, mainPanel);
 		frame.setSize(500, 600);
 		frame.setVisible(true);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
