@@ -73,11 +73,14 @@ public class QuizCardBuilder
 	}
 
 
+
 	public class NextCardListener implements ActionListener
 	{
 		public void actionPerformed(ActionEvent ev)
 		{
 			QuizCard card = new QuizCard(question.getText(), answer.getText());
+			cardList.add(card);
+			clearCard();
 		}
 	}
 

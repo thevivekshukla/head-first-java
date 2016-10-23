@@ -7,6 +7,7 @@ public class WriteAFile
 		try
 		{
 			FileWriter writer = new FileWriter("Foo.txt");
+			//BufferedWriter writeIt = new BufferedWriter(writer);
 			writer.write("hello foo! file");
 			writer.close();
 		}
