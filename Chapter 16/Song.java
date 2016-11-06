@@ -40,7 +40,7 @@ class Song implements Comparable<Song>
 
 	public String toString()
 	{
-		return title;
+		return String.format("%s: %s", title, artist);
 	}
 
 }
